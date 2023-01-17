@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+
+}
+
+
+
+.two {
+    perspective: 10000px;
+    /* perspective-origin: top left; */
+    /* transform: scale(0.5); */
+
+}
+
+
+.one {
+    filter: drop-shadow(-1px -1px 18px rgb(0, 0, 0));
+    /* transform: rotateX(0deg) rotateY(48deg);
+
+    transition: transform 0.1s; */
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 0.1s;
+    /* transform: perspective(800px); */
+
+}
+
+/*  */
